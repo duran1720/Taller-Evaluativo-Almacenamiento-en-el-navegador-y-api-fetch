@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -17,10 +16,12 @@
     </div>
 
     <div class="row mt-4 justify-content-center">
-      <div class="col-md-4">
+     <div class="col-md-4 position-relative">
         <label for="fichaInput" class="form-label">Digite Código Ficha:</label>
-        <input type="text" id="fichaInput" class="form-control" placeholder="Ej: 2993013" />
+        <input type="text" id="fichaInput" class="form-control" placeholder="Ej: 2993013" autocomplete="off" />
+        <ul class="list-group position-absolute w-100" id="sugerencias" style="z-index: 1000;"></ul>
       </div>
+
       <div class="col-md-4">
         <label for="programaInput" class="form-label">Nombre Programa:</label>
         <input type="text" id="programaInput" class="form-control" disabled>
