@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 
   if (password === "adso2993013") {
     localStorage.setItem("username", username);
-    window.location.href = "../html/main.html";
+    window.location.href = "./html/main.html";
   } else {
     document.getElementById("error").classList.remove("d-none");
   }
