@@ -2,8 +2,9 @@ body {
   background-color: #f8f9fa;
 }
 img{
-  width: 300px;
-  height: 150px;
+  width: 200px;
+  border-radius: 1px solid green;
+
 }
 .informacion, p{
   text-align: center;
