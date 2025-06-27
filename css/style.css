@@ -1,0 +1,14 @@
+
+body {
+  background-color: #f8f9fa;
+}
+img{
+  width: 300px;
+  height: 150px;
+}
+.informacion, p{
+  text-align: center;
+  font-size: 14px;
+  color: #6c757d;
+
+}

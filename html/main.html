@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aprendices SENA CTPI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div class="container mt-4 text-center">
+    <img src="../img/logoSena-removebg-preview.png" alt="SENA Logo" width="80">
+    <h5 class="mt-3">Usuario: <span id="userName"></span></h5>
+    <div class="d-flex justify-content-end mt-2">
+      <button class="btn btn-success" id="logoutBtn">Salir</button>
+    </div>
+
+    <div class="row mt-4 justify-content-center">
+      <div class="col-md-4">
+        <label for="fichaInput" class="form-label">Digite Código Ficha:</label>
+        <input type="text" id="fichaInput" class="form-control" placeholder="Ej: 2993013" />
+      </div>
+      <div class="col-md-4">
+        <label for="programaInput" class="form-label">Nombre Programa:</label>
+        <input type="text" id="programaInput" class="form-control" disabled>
+      </div>
+    </div>
+
+    <div class="table-responsive mt-4">
+      <table class="table table-bordered" id="aprendicesTable">
+        <thead class="table-dark">
+          <tr>
+            <th>Tipo Documento</th>
+            <th>Número Documento</th>
+            <th>Nombre</th>
+            <th>Primer Apellido</th>
+            <th>Segundo Apellido</th>
+            <th>Estado del Aprendiz</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="infromacion">
+    <p class="text-center mt-4">Desarrollado por: Stiven Duran </p>
+    <p>Tecnólogo en Analisis y Desarrollo de Software</p>
+    <p class="text-center mt-4">Ficha: 2993013</p>
+
+      
+  </div>
+  <script src="../js/app.js"></script>
+</body>
+</html>
